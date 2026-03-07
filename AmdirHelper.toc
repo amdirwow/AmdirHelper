@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: Amdir Helper
+## Notes: Minimap menu, Oracle UI, Transmog preview
+## Author: Amdir
+## Version: 1.0
+## SavedVariables: AmdirHelperDB, AmdirHardcoreWhoDB
+AmdirHelper_MinimapMenu.lua
+AmdirHelper_OracleAskUI.lua
+AmdirHelper_TransmogPreview.lua
+AmdirHelper_WorldChatLike.lua
+AmdirHelper_ReagentBank.lua
+AmdirHardcoreWho.lua
