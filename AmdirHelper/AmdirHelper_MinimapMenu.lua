@@ -248,7 +248,11 @@ local menu = {
                 end)
             end
         },
-        
+        {
+            text = "Рейд меню",
+            func = function() Exec(".raidmenu") end
+        },
+
     },
 },
     hardcoreMenu,
