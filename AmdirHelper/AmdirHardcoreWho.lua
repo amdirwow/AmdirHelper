@@ -74,6 +74,7 @@ local updateFrame    = CreateFrame("Frame")
 
 local function UpdateWhoIcons()
   if updateRunning then return end
+  if not WhoFrame or not WhoFrame:IsShown() then return end
   if not WhoListScrollFrame then return end
   if not GetWhoInfo(1) then return end
 
@@ -179,9 +180,11 @@ f:SetScript("OnEvent", function(_, event, a1, a2)
     if a1 == PREFIX and type(a2) == "string" then HandlePayload(a2) end
 
   elseif event == "WHO_LIST_UPDATE" then
-    SetupWhoHooks()
-    -- SendHCQuery()
-    RequestUpdate(0.05)
+    if WhoFrame and WhoFrame:IsShown() then
+      SetupWhoHooks()
+      -- SendHCQuery()
+      RequestUpdate(0.05)
+    end
 
   elseif event == "PLAYER_ENTERING_WORLD" then
     SetupWhoHooks(); RequestUpdate(0.20)
