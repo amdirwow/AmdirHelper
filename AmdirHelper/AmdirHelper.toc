@@ -5,9 +5,11 @@
 ## Version: 1.0
 ## SavedVariables: AmdirHelperDB, AmdirHardcoreWhoDB, AmdirHelperChatDB
 AmdirHelper_MinimapMenu.lua
+AmdirHelper_RaidLockoutInfo.lua
 AmdirHelper_OracleAskUI.lua
 AmdirHelper_TransmogPreview.lua
 AmdirHelper_ChatMod.lua
 AmdirHelper_WorldChatLike.lua
 AmdirHelper_ReagentBank.lua
 AmdirHardcoreWho.lua
+AmdirArenaBets.lua

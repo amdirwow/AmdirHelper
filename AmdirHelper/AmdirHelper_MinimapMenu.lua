@@ -215,16 +215,22 @@ local menu = {
             },
         },
         {
-            text = "Solo LFG: On",
-            func = function() Exec(".sololfg on") end
-        },
-        {
-            text = "Solo LFG: Off",
-            func = function() Exec(".sololfg off") end
-        },
-        {
-            text = "Solo LFG: Status",
-            func = function() Exec(".sololfg status") end
+            text = "Solo LFG",
+            hasArrow = true,
+            menuList = {
+                {
+                    text = "On",
+                    func = function() Exec(".sololfg on") end
+                },
+                {
+                    text = "Off",
+                    func = function() Exec(".sololfg off") end
+                },
+                {
+                    text = "Status",
+                    func = function() Exec(".sololfg status") end
+                },
+            },
         },
         {
             text = "АОЕ лут",
