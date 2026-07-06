@@ -4,6 +4,7 @@
 ## Author: Amdir
 ## Version: 1.0
 ## SavedVariables: AmdirHelperDB, AmdirHardcoreWhoDB, AmdirHelperChatDB
+fixes.lua
 AmdirHelper_MinimapMenu.lua
 AmdirHelper_RaidLockoutInfo.lua
 AmdirHelper_OracleAskUI.lua
